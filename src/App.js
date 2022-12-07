@@ -31,6 +31,7 @@ function App() {
             <Route path='/admin/history' element={<History_data />} />
             <Route path='/admin/settings' element={<Setting_liveNse />} />
             <Route path='/Add_settingdata' element={<Add_settingdata />} />
+
             <Route
               path='/admin/Update_settingdata/:empid'
               element={<Update_settingdata />}
